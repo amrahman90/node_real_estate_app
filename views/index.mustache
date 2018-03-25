@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{{>head}}
+
+<body>
+	<div id="wrapper">
+	{{>nav}}
+		<div id="main">
+			<div class="inner">
+				<h1>Fordham Apartments</h1>
+				<div class="image main"><img src="/images/home.jpg" alt="" />
+				</div>
+				<p>
+					Fordham Apartments offers high quality school housing just blocks from Fordham University with no brokerage fees ever! We are not real estate agents, we own and manage
+					all our own buildings and pass the savings along to you.
+				</p>
+			<section id="availables" class="tiles">
+				{{#data}}
+				{{>availability}}
+				{{/data}}
+			</section>
+			</div>
+		</div>
+		{{>footer}}
+	</div>
+	{{>scripts}}
+</body>
+</html>
