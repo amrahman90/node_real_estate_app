@@ -1,4 +1,4 @@
-# node_real_estate_app
+# NodeJS Real Estate Site App
 
 This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
 
